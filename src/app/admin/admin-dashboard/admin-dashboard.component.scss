@@ -1,0 +1,45 @@
+.header {
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background: rgb(79, 8, 168);
+    height: 50px;
+    line-height: 50px;
+}
+
+.body {
+    height: calc(100vh - 50px);
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+#sidebar {
+    width: 240px;
+    background: #0f172a;
+}
+
+#content {
+    padding: 20px;
+    width: 100%;
+    background: transparent;
+}
+
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  mat-drawer {
+    width: 260px;
+  }
+  mat-drawer-container {
+    height: 100%;
+  }
+  
+  mat-drawer {
+    background: #0f172a;
+  }
+  
